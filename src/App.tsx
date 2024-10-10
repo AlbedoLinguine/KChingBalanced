@@ -16,7 +16,7 @@ function App() {
     e.preventDefault();
     playAudio();
     // The form will be submitted to FormSubmit service
-    alert('Submitting data...');
+    alert('Submitting data... (DO NOT EXIT THE WEBSITE UNTIL CONFIRMATION, Close this message to continue, may take up to a minute)');
     // Submit the form programmatically
     e.currentTarget.submit();
   };
