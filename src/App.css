@@ -47,6 +47,10 @@
     height: 250px;
   }
 }
+.textareacss:focus {
+  outline: none;
+  border: 2px solid #ff0000;
+}
 
 .columncss {
   display:flex;
@@ -57,9 +61,9 @@
 
 .submitbutton {
   margin-top: 40px;
-  background-color: #333; /* Dark background */
-  color: #fff; /* White text */
-  border: 2px solid #ff0000; /* Red border */
+  background-color: #333; 
+  color: #fff;
+  border: 2px solid #ff0000;
   padding: 10px 20px;
   font-size: 16px;
   font-weight: bold;
@@ -69,18 +73,17 @@
   transition: all 0.3s ease;
 }
 
-/* Hover effect */
+
 .submitbutton:hover {
-  background-color: #550000; /* Dark red on hover */
-  box-shadow: 0 0 20px #ff0000, 0 0 40px #ff0000; /* Intense glow on hover */
-  transform: scale(1.1); /* Slightly larger */
+  background-color: #550000; 
+  box-shadow: 0 0 20px #ff0000, 0 0 40px #ff0000; 
+  transform: scale(1.1); 
 }
 
-/* Active effect */
 .submitbutton:active {
-  background-color: #770000; /* Even darker red */
-  box-shadow: 0 0 5px #ff0000; /* Reduced glow */
-  transform: scale(1); /* Return to original size */
+  background-color: #770000; 
+  box-shadow: 0 0 5px #ff0000; 
+  transform: scale(1);
 }
 
 .card {
